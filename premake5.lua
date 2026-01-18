@@ -10,7 +10,7 @@ project "imgui"
 	flags { "MultiProcessorCompile" }
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	objdir ("bin/" .. outputdir .. "/%{prj.name}/int")
 
 	defines
 	{
